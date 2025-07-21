@@ -1,22 +1,9 @@
-# react-native-flashdrag-list
-
-Draggable FlashList for react-native
 
 ## Installation
 
 ```sh
 npm install react-native-flashdrag-list
-```
-
-## Usage
-
-```js
-import React, { useState } from 'react'
-import { SafeAreaView, Text, TouchableOpacity } from 'react-native'
-import FlashDragList from "react-native-flashdrag-list"
-import { GestureHandlerRootView } from 'react-native-gesture-handler'
-
-interface Item {
+`` "react-native-flashdr
   title: string,
   color: string
 }
@@ -78,19 +65,10 @@ const App = () => {
   }
 
   return (
-    <GestureHandlerRootView style={{
-      flex: 1
-    }}>
-      <SafeAreaView style={{
-        flex: 1,
-        height: '100%',
-        backgroundColor: 'white'
-      }}>
-        <FlashDragList
+    <G
           data={data}
           renderItem={renderItem}
           itemsSize={ITEM_HEIGHT}
-          onSort={onSort}
         />
       </SafeAreaView>
     </GestureHandlerRootView>
@@ -101,14 +79,7 @@ export default App
 
 ```
 
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
+low
 ---
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+Made with [create-react-n
